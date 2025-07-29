@@ -1,0 +1,6 @@
+// @import url('./theme.scss');
+@use ".theme.scss";
+
+.sidebar {
+  background-color: var(--sidebar-background);
+}

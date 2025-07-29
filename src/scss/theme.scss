@@ -1,0 +1,54 @@
+:root {
+  --primary-color: #ff0000;           // YouTube red (Subscribe button)
+  --secondary-color: #ffffff;         // Background and text on dark backgrounds
+  --accent-color: #f1f1f1;            // Card background
+  --text-color: #0f0f0f;              // Primary dark text
+  --subtext-color: #606060;           // Subtext, timestamps, etc.
+  --border-color: #d3d3d3;            // Divider lines or card outlines
+  --hover-color: #e5e5e5;             // Hover background
+  --tab-active-color: #0f0f0f;        // Active tab underline or color
+  --tab-inactive-color: #909090;      // Inactive tab text
+  --icon-color: #606060;              // Icons and secondary elements
+
+  // Backgrounds
+  --background-color: #ffffff;
+  --sidebar-background: #f9f9f9;
+  --card-background: #ffffff;
+
+  // Notification bubbles
+  --notification-bg: #ff6c6c;
+  --notification-text: #ffffff;
+
+  // Avatar border
+  --avatar-border: #cccccc;
+
+  // Spacing
+  --spacing-unit: 8px;
+  --spacing-xs: calc(var(--spacing-unit) / 2);
+  --spacing-sm: var(--spacing-unit);
+  --spacing-md: calc(var(--spacing-unit) * 2);
+  --spacing-lg: calc(var(--spacing-unit) * 3);
+  --spacing-xl: calc(var(--spacing-unit) * 4);
+}
+
+.dark-theme {
+  --primary-color: #ff4c4c;
+  --secondary-color: #181818;
+  --accent-color: #282828;
+  --text-color: #ffffff;
+  --subtext-color: #aaaaaa;
+  --border-color: #3f3f3f;
+  --hover-color: #383838;
+  --tab-active-color: #ffffff;
+  --tab-inactive-color: #777777;
+  --icon-color: #aaaaaa;
+
+  --background-color: #0f0f0f;
+  --sidebar-background: #1f1f1f;
+  --card-background: #1a1a1a;
+
+  --notification-bg: #ff4c4c;
+  --notification-text: #ffffff;
+
+  --avatar-border: #444444;
+}

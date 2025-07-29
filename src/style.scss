@@ -1,0 +1,11 @@
+@use './scss/header.scss';
+@use "./scss/theme.scss";
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+* {
+  box-sizing: border-box;
+}
