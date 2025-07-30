@@ -1,9 +1,14 @@
+@use './scss/theme-checkbox.scss';
 @use './scss/header.scss';
-@use "./scss/theme.scss";
+@use './scss/theme.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 
 body {
   background-color: var(--background-color);
   color: var(--text-color);
+  font-family: "Mulish", sans-serif;
 }
 
 * {
