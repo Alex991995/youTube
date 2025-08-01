@@ -1,0 +1,82 @@
+@use './theme.scss';
+
+
+.wallpaper {
+  height: 17.5rem;
+
+  &__photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 14px;
+  }
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.panel-user {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: flex-start;
+
+  &__info {
+    display: flex;
+    gap: 14px;
+    align-items: center
+  }
+
+  &__photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+  }
+
+  &__name {
+    color: var(--text-color);
+    font-size: 1.625rem;
+  }
+
+  &__subscribed {
+    color: var(--statistics-blogger);
+    font-size: 0.8125rem;
+    font-weight: 400;
+  }
+
+  &__subscribe-notification {
+    color: var(--tab-inactive-color);
+  }
+
+  &__subscribe-button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: var(--notification-bg);
+    border: none;
+    color: var(--notification-text);
+  }
+
+  &__subscribe {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+  }
+}
+
+.content__blogger {
+  &-tabs {
+
+    &__list {
+
+    };
+
+    &__item {
+
+    }
+  }
+}

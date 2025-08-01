@@ -1,7 +1,7 @@
 @use './scss/theme-checkbox.scss';
 @use './scss/header.scss';
 @use './scss/sidebar.scss';
-
+@use './scss//main-section.scss';
 @use './scss/theme.scss';
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
@@ -20,6 +20,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: 250px 1fr;
+  margin-top: 30px;
 }
 
 a {
