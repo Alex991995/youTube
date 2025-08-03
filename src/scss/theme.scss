@@ -1,13 +1,13 @@
 :root {
-  --primary-color: #ff0000;           // YouTube red (Subscribe button)
-  --secondary-color: #ffffff;         // Background and text on dark backgrounds
-  --accent-color: #f1f1f1;            // Card background
-  --text-color: #0f0f0f;              // Primary dark text
-  --subtext-color: #606060;           // Subtext, timestamps, etc.
-  --border-color: #d3d3d3;            // Divider lines or card outlines
-  --hover-color: #e5e5e5;             // Hover background
-  --tab-active-color: #0f0f0f;        // Active tab underline or color
-  --tab-inactive-color: #909090;      // Inactive tab text
+  --primary-color: #ff0000;           
+  --secondary-color: #ffffff;         
+  --accent-color: #f1f1f1;          
+  --text-color: #0f0f0f;            
+  --subtext-color: #606060;          
+  --border-color: #d3d3d3;          
+  --hover-color: #e5e5e5;            
+  --tab-active-color: #0f0f0f;     
+  --tab-inactive-color: #909090;     
   --icon-color: #606060;  
 
   --statistics-blogger:#c2c2c2;
@@ -21,6 +21,10 @@
   --notification-bg: #ff0000;
   --notification-text: #ffffff;
   --logo-color: brightness(0) invert(0);
+
+  --background-pagination: #C2C2C2;
+  --color-pagination: #FFFFFF;
+
 
   --avatar-border: #cccccc;
 
@@ -41,7 +45,7 @@
   --statistics-blogger: #c2c2c2;
 
   --background-color: #0f0f0f;
-    --secondary-background: #2C2C33;
+  --secondary-background: #2C2C33;
   --sidebar-background: #1f1f1f;
   --card-background: #1a1a1a;
 
@@ -49,6 +53,7 @@
   --notification-text: #ffffff;
    --logo-color: brightness(0) invert(1);
 
-
+--background-pagination:  #2E2E36;
+ --color-pagination: #828286;
   --avatar-border: #444444;
 }
