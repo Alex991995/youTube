@@ -12,6 +12,7 @@
   display: flex;
   gap: 1.25rem;
   align-items: center;
+  padding-left: 43px;
 
   &-icon {
     filter: var(--logo-color);
@@ -108,10 +109,17 @@
 
 }
 
+@media (max-width: 550px) {
+  .header__inner {
+    padding: 10px 20px 0 0;
+    align-items: center;
+
+  }
+}
 
 @media (max-width: 450px) {
-  .header__inner {
-    align-items: center;
+  .header__logo {
+    padding-left: 0;
   }
 
   .header__input-input {
@@ -130,9 +138,11 @@
     flex-basis: 0;
   }
 
-  .header__logo-name {
+  .header__logo-name.logo {
     font-size: 1rem;
     display: block;
+    font-weight: 700;
+
   }
 
   .header__input-search {
