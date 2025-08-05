@@ -1,5 +1,12 @@
 @use './theme.scss';
 
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--background-color);
+}
+
 .header__inner {
   display: flex;
   width: 100%;
@@ -111,9 +118,8 @@
 
 @media (max-width: 550px) {
   .header__inner {
-    padding: 10px 20px 0 0;
+    padding: 10px 30px 10px 0;
     align-items: center;
-
   }
 }
 

@@ -240,14 +240,19 @@
     padding: 0;
     justify-content: space-between;
     gap: 20px;
-    flex-wrap: wrap;
+    overflow: auto;
+    white-space: nowrap;
+    // width: 100%;
+    width: 100vw;
+
   }
 
   &__card {
     position: relative;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     cursor: pointer;
+
   }
 
   &__video {
@@ -279,17 +284,21 @@
   }
 }
 
+
+
 .mobile-nav {
   display: none;
   border-top: 1px solid rgba(216, 216, 216, 0.5);
-  margin-bottom: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--background-color);
 
   &__list {
     display: flex;
     margin: 0;
     height: 60px;
-    align-items: center;
-    padding: 10px 0 0 0;
+    padding: 10px 0 10px 0;
     justify-content: space-around;
     align-items: center;
   }
